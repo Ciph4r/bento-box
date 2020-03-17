@@ -1,6 +1,9 @@
 #app {
   width: 826px;
   height: 936px;
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+  grid-template-rows: 20% 25% 40% 15%;
 }
 
 .box {
@@ -8,3 +11,28 @@
   height: 100%;
 }
 
+#bamboo{
+  grid-column: 2 / span 2;
+  grid-row: 3 ;
+}
+#fish-flag{
+grid-column: span 2;
+}
+
+#map{
+  grid-column: span 2;
+ 
+  grid-row: 2 / span 1;
+}
+
+#quadropus{
+  grid-row: 4;
+  grid-column: 2 / span 2;
+}
+#vase-short{
+  grid-row: span 2;
+}
+
+#vase-tall{
+  grid-row: span 2;
+}
